@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>台彩預測</title>
+<meta name="theme-color" content="#6e0c17">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<script>
+  var REPORT = "https://claude.ai/artifact/X5ucHwDZVpsNiUkKn9XYsn";
+  var standalone = window.matchMedia && (matchMedia("(display-mode: standalone)").matches || matchMedia("(display-mode: fullscreen)").matches);
+  if (location.search.indexOf("go=1") !== -1 || standalone) location.replace(REPORT);
+</script>
+<style>
+  :root{color-scheme:dark}
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;
+    background:radial-gradient(120% 80% at 80% 0%,#8f1422,#6e0c17 55%,#3d060d);color:#fff6e8;
+    font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+    padding:24px max(16px,env(safe-area-inset-left)) 24px max(16px,env(safe-area-inset-right))}
+  main{max-width:360px}
+  img{width:128px;height:128px;border-radius:28px;box-shadow:0 12px 30px rgba(0,0,0,.45)}
+  h1{font-size:30px;margin:20px 0 6px}
+  p{opacity:.8;line-height:1.6;margin:0 0 22px}
+  a.go{display:inline-block;padding:14px 28px;border-radius:999px;background:#f6d27a;color:#3d060d;font-weight:700;font-size:17px;text-decoration:none}
+  .tip{margin-top:26px;font-size:13px;opacity:.65}
+</style>
+</head>
+<body>
+<main>
+  <img src="icon-512.png" alt="">
+  <h1>台彩預測</h1>
+  <p>今彩539・威力彩・大樂透・3星・4星<br>每晚自動更新下一期號碼</p>
+  <a class="go" href="https://claude.ai/artifact/X5ucHwDZVpsNiUkKn9XYsn">打開今日號碼</a>
+  <div class="tip">選單 →「加到主畫面」，之後點圖示直接進報告</div>
+</main>
+</body>
+</html>
