@@ -1,0 +1,2 @@
+{"name":"彩國爭霸・命運之輪","short_name":"彩國爭霸","start_url":"./","scope":"./","display":"fullscreen","orientation":"portrait","background_color":"#0b0806","theme_color":"#0b0806","lang":"zh-Hant",
+"icons":[{"src":"icons/icon-192.png","sizes":"192x192","type":"image/png"},{"src":"icons/icon-512.png","sizes":"512x512","type":"image/png"},{"src":"icons/mask-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]}

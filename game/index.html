@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#0b0806">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>彩國爭霸</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<style>
+@font-face{font-family:GameSerif;src:url(fonts/game.woff2) format('woff2');font-weight:400 900;font-display:block}
+html,body{margin:0;height:100%;background:#0b0806;overflow:hidden;touch-action:none;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}
+body::before{content:"";position:fixed;inset:-5%;background:url(art/bgx_night.webp) center/cover;filter:blur(18px) brightness(.35);z-index:0}
+#game{position:fixed;inset:0;top:env(safe-area-inset-top,0px);bottom:env(safe-area-inset-bottom,0px);z-index:1;display:flex;align-items:center;justify-content:center}
+#boot{position:fixed;inset:0;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#f6d27a;font:700 20px serif;letter-spacing:.3em;pointer-events:none}
+</style>
+  <script type="module" crossorigin src="./assets/index-BkLRxXeF.js"></script>
+</head>
+<body>
+<div id="game"></div>
+<div id="boot">彩國爭霸</div>
+</body>
+</html>
